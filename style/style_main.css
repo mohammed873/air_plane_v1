@@ -1,0 +1,524 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    width: 100%;
+    background-image: url(https://www.cccneb.edu/programs/cccmart/gallery/graphic_arts/web/1732kolten/Final/images/web-page-header-design_201166.png);
+    background-size: cover;
+    height: 395px;
+    
+}
+.n_a_v{
+    background-color: transparent !important;
+}
+.entry-title{
+    text-align: center;
+    margin-top: 187px;
+    font-size: 26px;
+}
+.table-title{
+    text-align: center!important;
+    background-color: #ef7f4a !important;
+    padding: 10px !important;
+    width: 50% !important;
+    margin: auto !important;
+    font-family: fantasy !important;
+}
+@media only screen and (max-width: 900px){
+    #test{
+        margin-top: 89px !important;
+    }
+    .entry-title h3{
+        color:black;
+    }
+}
+.entry-title p{
+    border: 1px solid;
+    width: 20%;
+    margin: auto;
+    padding: 9px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    font-size: 75%;
+}
+.entry-title p a{
+      text-decoration: none;
+      color: white;
+}
+.inputs-container{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    padding: 1%;
+    box-shadow: 3px 3px 103px rgba(0,0,0,.33);
+    background-color: #ead9d9;
+    border-radius: 6px;
+}
+.error{
+    text-align: center;
+    color: darkred;
+    font-size: 20px;
+}
+#zero-row{
+    width: 93%;
+    margin: auto;
+    font-size: 19px;
+}
+#first-row,#second-row,#third-row{
+    display: flex;
+    justify-content: space-around;
+}
+#first-row input,#second-row input{
+      padding: 1%;
+      text-align: center;
+      width: 40%;
+}
+#third-row input, #third-row select{
+      padding: 1%;
+      text-align: center;
+      width: 24%;
+}
+.inputs-container button{
+    width: 92%;
+    position: relative;
+    padding: 9px;
+    left: 4%;
+    background-color: #f07d43;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+  
+@media only screen and (max-width: 1168px){
+    #first-row,#second-row,#third-row{
+           flex-direction: column;
+           margin-top: 12px;
+    }
+    #first-row input,#second-row input,#third-row input {
+        width: 80%;
+        padding: 14px;
+        margin-top: 10px;
+        position: relative;
+        left: 4%;
+    }
+    #third-row select{
+        width: 86%;
+        padding: 14px;
+        margin-top: 10px;
+        position: relative;
+        left: 4%;
+    }
+    .inputs-container  br{
+        display: none;
+    }
+    .inputs-container button {
+        margin-top: 7%;
+        width: 86%;
+    }
+}
+.serveces-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.serveces-container #servece{
+    box-shadow: 0px 0px 8px;
+    padding: 1%;
+    cursor: pointer;
+    flex-basis: 14%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 13px;
+}
+.serveces-container #servece:hover{
+    box-shadow: 3px 3px 30px rgba(21, 21, 21, 0.82);
+    background-color: darkslateblue;
+    color: white;
+    flex-basis: 17%;
+}
+.serveces-container #servece #font{
+    font-size: 80px;    
+}
+@media only screen and (max-width: 663px){
+    .serveces-container{
+        flex-direction: column;
+    }
+    .serveces-container #servece{
+        margin-top: 14px;
+        
+    }
+}
+.comfort-container{
+    background-image: url(https://wallpaperset.com/w/full/0/c/1/183271.jpg);
+    height: 800px;
+    box-shadow: 0px 0px 19px;
+}
+.comfort-container h1, h2, p{
+    text-align: center;
+}
+.comfort-container h1{
+    color: cornsilk;
+}
+.comfort-container p{
+    background-color: black;
+    width: 15% !important;
+    padding: 12px;
+    margin: auto;
+    border-radius: 8px;
+}
+.comfort-container p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.inner-comfort{
+    position: relative;
+    top: 146px;
+}
+
+/*********************************************** the about part ***********************************************/
+.about-container{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    box-shadow: 3px 3px 103px rgba(21, 21, 21, 0.82);
+}
+#about-description{
+    padding: 3%;
+    background-color: #0e3f59;
+    color: white;
+    flex-basis: 50%;
+}
+#about-description p{
+    font-size: 25px;
+    text-align: justify;
+    font-family: serif;
+}
+#about-image{
+    flex-basis: 50%;
+}
+#about-image img{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 1100px) {
+    .about-container{
+        flex-direction: column-reverse;
+    }
+    .about-container #about-image img {
+        width: 100%;
+    }
+}
+
+#h2-title{
+    text-align: center;
+    background-color: #0a0a0a;
+    padding: 16px;
+    width: 30%;
+    margin: auto;
+    border-radius: 9px;
+    color: yellowgreen;
+}
+.photo-first-row{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+.first-image-container,.second-image-container{
+    flex-basis: 49%;
+}
+.second-image-container img ,.first-image-container img {
+    width: 100%;
+    height: 100%;
+}
+.first-image-container #items{
+    height: 330px;
+}
+ #items img{
+    width: 100%;
+    height: 100%;
+}
+.second-image-row{
+    width: 69%;
+    margin: auto;
+}
+.third-image-row{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+.third-items{
+    flex-basis: 49%;
+}
+
+@media only screen and (max-width: 1200px){
+    .second-image-row,.third-image-row {
+        flex-direction: column;
+    }
+    .photo-first-row{
+        display: none;
+    }
+}
+#up{
+    position: fixed;
+    top: 658px;
+    right: 1%;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 52px;
+    z-index: 2 ;
+    display: none;
+}
+#up a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 853px){
+    #up{
+z-index: 1;
+    }
+
+}
+.footer-div{
+    background-color: #0c3a51;;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+    border-top: 10px solid #ef7f4a;
+        box-shadow: 0px 0px 21px
+}
+@media only screen and (max-width: 1300px){
+    .footer-div{
+        flex-direction: column;
+    }
+}
+.footer-item{
+    padding: 2%;
+    width: 48%;
+    margin: auto;
+}
+.footer-item input {
+    width: 60%;
+    padding: 5px;
+    text-align: center;
+    border: none;
+}
+.footer-item textarea{
+    width: 60.5%;
+    text-align: center;
+}
+.footer-item span{
+    color: yellow;
+}
+.footer-item button{
+    width: 61.5%;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.footer-item button:hover{
+    background-color: #e0a347;
+}
+@media only screen and (max-width: 1300px){
+    .footer-item button{
+        width: 105%;
+    }
+    .footer-item textarea{
+        width: 103%;
+    }
+    .footer-item input{
+        width: 102%;
+    }
+}
+#feedback-error{
+    color: yellow;
+}
+#icon{
+    font-size: 46px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 67%;
+    margin: auto;
+}
+.footer-item p{
+    color: wheat;
+    font-size: 17px;
+    text-align: center;
+}
+/**************** the reservation part ****************/
+.add{
+    text-align: center;
+    background-color: #ff7f48;
+    color: white;
+    padding: 5px;
+    font-family: sans-serif;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 11px black;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 23px;
+}
+#about-description p strong{
+    color: #ef7f4a;
+}
+.inputs-container2{
+    width: 64%;
+    margin: 50px auto;
+    position: relative;
+    top: 70px;
+    padding: 1%;
+    box-shadow: 3px 3px 103px rgba(0,0,0,.33);
+    background-color: #ead9d9;
+    border-radius: 6px;
+    display: block;
+  }
+  .error{
+    text-align: center;
+    color: darkred;
+    font-size: 20px;
+  }
+  #first-row,#second-row,#third-row{
+    display: flex;
+    justify-content: space-around;
+  }
+  #first-row input,#second-row input{
+      padding: 1%;
+      text-align: center;
+      width: 40%;
+  }
+  #third-row input, #third-row select{
+      padding: 1%;
+      text-align: center;
+      width: 24%;
+  }
+  .inputs-container2 button{
+    width: 92%;
+    position: relative;
+    padding: 9px;
+    left: 4%;
+    background-color: #f07d43;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+  }
+ #air{
+      display: none !important;
+  }
+  @media only screen and (max-width:600px){
+      .reservation_table{
+        display: table-row-group;
+        font-size: 12px;
+      }
+  }
+  @media only screen and (max-width: 1168px){
+    #first-row,#second-row,#third-row{
+           flex-direction: column;
+           margin-top: 12px;
+    }
+    #first-row input,#second-row input,#third-row input {
+        width: 80%;
+        padding: 14px;
+        margin-top: 10px;
+        position: relative;
+        left: 4%;
+    }
+    #third-row select{
+        width: 86%;
+        padding: 14px;
+        margin-top: 10px;
+        position: relative;
+        left: 4%;
+    }
+    .inputs-container2  br{
+        display: none;
+    }
+    .inputs-container2 button {
+        margin-top: 7%;
+        width: 86%;
+    }
+}
+@media only screen and (max-width:800px){
+    .inputs-container2{
+        width: 80%;
+    }
+}
+
+
+/* the confirm page part */
+.confirm{
+    width: 72%;
+    margin: auto;
+    box-shadow: 3px 3px 103px rgba(220, 16, 16, 0.33);
+    padding: 1%;
+    background-color: #0c3a51;
+    color: white;
+    font-size: 18px;
+}
+.confirm strong{
+    color: #f07d43;
+}
+.confirm_header{
+    width: 72%;
+    margin: auto;
+    box-shadow: 3px 3px 103px rgba(220, 16, 16, 0.33);
+}
+.confirm_header img{
+    width: 100%;
+}
+.confirm hr{
+    background-color: yellow;
+}
+#c_bien_confirm{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+    background-color: black;
+    cursor: pointer;
+}
+#c_bien_confirm a{
+    position: relative;
+    top: 6px;
+}
+#fixed{
+    font-size: 32px;
+    position: relative;
+    top: 20px;
+    font-family: auto;
+    font-weight: 600;
+}
+#fixed-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 38px;
+    font-size: 23px;
+}
+
+/************************************************** admin panel part */
+.profile{
+    width: 60% !important;
+    margin: auto !important;
+    box-shadow: 0px 0px 11px !important;
+    padding: 1% !important;
+    text-align: center !important;
+}
+@media only screen and (max-width: 727px){
+   .t_able{
+       font-size: 19px !important;
+   }
+}

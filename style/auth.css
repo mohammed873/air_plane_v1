@@ -1,0 +1,37 @@
+body{
+    margin-top: 13%;
+    background-image: url(https://wallpaperaccess.com/full/1602717.jpg);
+}
+.big-box{
+    padding: 1%;
+    box-shadow: 0px 0px 12px;
+    background-color: rgba(0, 0, 0, 0.67);
+    color: aliceblue;
+}
+@media screen and (min-width: 992px){
+    .big-box{
+        margin-left: 10%;
+    }
+}
+input{
+    padding: 3% !important;
+}
+.h2{
+    text-align: center!important;
+    background-color: #4534a7;
+    color: white;
+    padding: 2%;
+    border-radius: 7px;
+    font-family: serif;
+}
+.alert li{
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+#hr{
+    background-color: #ea692b;
+    height: 5px;
+}
+
